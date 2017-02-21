@@ -89,6 +89,15 @@ body {
   background-color: #f33;
 }
 
+.button {
+  transition: all 0.3s ease-in-out, transform .2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #900;
+  transform: scale(1.1);
+}
+
 #start_game {
   display: block;
 }
